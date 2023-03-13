@@ -17,7 +17,7 @@ function App() {
       id: Math.random(),
       title,
       time,
-      done: false
+      done: false,
     }
     
     await fetch(API + "/todos", {
